@@ -14,7 +14,7 @@ import java.util.TimerTask;
 import java.util.concurrent.TimeUnit;
 
 // Blinks a led connected to BCM21 pin on Raspberry PI 3
-// Enter in a termianl: "adb connect ip_of_the_board"
+// Enter in a terminal: "adb connect ip_of_the_board"
 
 //Tip: you can run the app after you disconnect from the computer like this
 //adb shell
