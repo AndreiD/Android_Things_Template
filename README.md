@@ -6,6 +6,20 @@ Android Things Template
 
 ![alt text](https://github.com/AndreiD/Android_Things_Template/blob/master/other/preview.gif "How the board looks")
 
+#### What it does:
+
+Blinks a led... it's a template app.
+
+Tip #1: Enter in a terminal: "adb connect ip_of_the_board"
+
+Tip #2: you can run the app after you disconnect from the computer like this
+
+~~~~
+$adb shell
+rpi3:/ $ am start -n com.androidadvance.thingstest/.MainActivity
+Starting: Intent { cmp=com.androidadvance.thingstest/.MainActivity }
+rpi3:/ $
+~~~~
 #### How to use it:
 
 CREATE a file caled locale.properties and in it put the location of the android sdk
