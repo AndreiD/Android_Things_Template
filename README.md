@@ -4,6 +4,8 @@ Ultimate Android App Template for Android Things [level: Beginner]
 ## This is a simple start-template to save you a little time.
 ## Works with Raspberry Pi 3, Intel® Edison, NXP Pico i.MX6UL, Intel® Joule™ 570x, NXP Argon i.MX6UL
 
+![alt text](https://github.com/AndreiD/Android_Things_Template/blob/master/other/preview.gif "How the board looks")
+
 #### How to use it:
 
 CREATE a file caled locale.properties and in it put the location of the android sdk
