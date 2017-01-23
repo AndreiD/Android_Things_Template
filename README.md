@@ -20,6 +20,15 @@ rpi3:/ $ am start -n com.androidadvance.thingstest/.MainActivity
 Starting: Intent { cmp=com.androidadvance.thingstest/.MainActivity }
 rpi3:/ $
 ~~~~
+
+Tip #3: If you play around with different apps (packages) and want the app to run on boot. You need to have just ONE app with the
+launcher IOT_THINGS in the manifest file installed. To uninstall the other apps
+
+~~~~
+adb shell pm list packages -3
+adb uninstall com.your_package_name
+~~~~
+
 #### How to use it:
 
 CREATE a file caled locale.properties and in it put the location of the android sdk
