@@ -46,7 +46,7 @@ android {
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
 
-  provided 'com.google.android.things:androidthings:0.1-devpreview'
+  provided 'com.google.android.things:androidthings:0.2-devpreview'
 
   //----- Retrofit
   compile 'com.squareup.retrofit2:retrofit:2.1.0'
