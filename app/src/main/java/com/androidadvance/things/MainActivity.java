@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
 
     Timer timer = new Timer();
     TimerTask updateBall = new BlinkTheLed();
-    timer.scheduleAtFixedRate(updateBall, 0, 1000);
+    timer.scheduleAtFixedRate(updateBall, 0, 1200);
 
     //Method 2: RxJava Power
 
